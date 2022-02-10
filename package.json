@@ -12,6 +12,8 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.2.0",
-    "vite": "^2.8.0"
+    "rollup": "^2.67.2",
+    "vite": "^2.8.0",
+    "vite-plugin-inject-externals": "^1.1.1"
   }
 }
