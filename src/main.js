@@ -1,4 +1,8 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import '@mdi/font/css/materialdesignicons.min.css';
+import 'animate.css/animate.compat.css';
+import '@/style.css';
 
-createApp(App).mount('#app')
+import app from '@/app';
+import router from '@/plugins/router';
+
+app.use(router).mount('body');
